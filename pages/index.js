@@ -4,7 +4,7 @@ import MainBanner from "@/components/HomePageDemo2/MainBanner";
 import AboutOurCompany from "@/components/HomePageDemo2/AboutOurCompany";
 import ServicesCard from "@/components/Services/ServicesCard";
 import WhyChooseUsStyle2 from "@/components/Common/WhyChooseUsStyle2";
-import Infos from "@/components/infos/Infos";
+import Infos from "@/components/Infos/Infos";
 import FaqContent from "@/components/FaqContent/FaqContent";
 import ContactInfo from "@/components/Contact/ContactInfo";
 import ContactForm from "@/components/Contact/ContactForm";

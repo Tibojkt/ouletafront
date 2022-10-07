@@ -5,7 +5,7 @@ import TopServices from "@/components/HomePageDemo1/TopServices";
 import AboutOurCompany from "@/components/HomePageDemo1/AboutOurCompany";
 import FunFactStyle1 from "@/components/Common/FunFactStyle1";
 import OurServices from "@/components/HomePageDemo1/OurServices";
-import Infos from "@/components/Common/infos";
+import Infos from "@/components/Common/Infos";
 import WhyChooseUsStyle1 from "@/components/Common/WhyChooseUsStyle1";
 import TestimonialStyle1 from "@/components/Common/TestimonialStyle1";
 import OurExpertise from "@/components/HomePageDemo1/OurExpertise";

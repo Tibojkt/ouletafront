@@ -6,7 +6,7 @@ import FunFactStyle3 from "@/components/Common/FunFactStyle3";
 import OurServices from "@/components/HomePageDemo3/OurServices";
 import WhyChooseUsStyle2 from "@/components/Common/WhyChooseUsStyle2";
 import Pricing from "@/components/PricingPlan/Pricing";
-import Infos from "@/components/Common/infos";
+import Infos from "@/components/Common/Infos";
 import AboutOurCompany from "@/components/HomePageDemo3/AboutOurCompany";
 import TestimonialStyle2 from "@/components/Common/TestimonialStyle2";
 import TeamMemberStyle2 from "@/components/Common/TeamMemberStyle2";
