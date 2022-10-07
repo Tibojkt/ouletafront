@@ -1,6 +1,6 @@
 const baseApiUrl =
   process.env.NODE_ENV === "production"
-    ? "http://localhost:1437"
-    : "http://localhost:1437";
+    ? "residenceouleta-o9wsivlgf-tibojkt.vercel.app"
+    : "http://localhost:1337";
 
 export default baseApiUrl;
