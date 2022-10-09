@@ -103,7 +103,7 @@ const Footer = () => {
 
                 <ul className="quick-links">
                   <li>
-                    <Link href="/infos/personnel">
+                    <Link href="/infos/equipe">
                       <a>Notre équipe</a>
                     </Link>
                   </li>
