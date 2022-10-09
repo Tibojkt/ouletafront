@@ -11,7 +11,7 @@ const NavbarInfos = () => {
       </Link>
       <ul className="dropdown-menu">
         <li className="nav-item">
-          <Link href="/infos/personnel/">
+          <Link href="/infos/equipe/">
             <a className="nav-link">Notre équipe</a>
           </Link>
         </li>
