@@ -60,7 +60,7 @@ const WhyChooseUsStyle1 = () => {
                     }
                   />
                   <div className="why-choose-us-shape-1">
-                    <img src="/images/why-choose-us/shape-1.png" alt="Teza" />
+                    <img src="/images/why-choose-us/shape-1.png" alt="forme" />
                   </div>
                 </div>
               </div>

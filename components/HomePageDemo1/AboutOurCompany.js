@@ -38,7 +38,7 @@ const AboutOurCompany = () => {
                     }
                   />
                   <div className="about-shape-1">
-                    <img src="/images/about/shape-1.png" alt="Teza" />
+                    <img src="/images/about/shape-1.png" alt="form" />
                   </div>
                 </div>
               </div>
@@ -69,7 +69,7 @@ const AboutOurCompany = () => {
           </div>
 
           <div className="about-shape-2">
-            <img src="/images/about/shape-2.png" alt="Teza" />
+            <img src="/images/about/shape-2.png" alt="forme" />
           </div>
         </div>
       )}

@@ -14,7 +14,7 @@ export default function Custom404() {
       <div className="error-area ptb-100">
         <div className="container">
           <div className="error-content">
-            <img src="/images/error.png" alt="Teza" />
+            <img src="/images/error.png" alt="erreur" />
             <h3>Erreur 404 : La page n'a pas été trouvée</h3>
             <p>
               La page que vous essayez de voir a peut-être été déplacée,

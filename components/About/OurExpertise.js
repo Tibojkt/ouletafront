@@ -29,12 +29,8 @@ const OurExpertise = () => {
                   data-aos-once="true"
                 >
                   <span>{expertise.data.attributes.subTitle}</span>
-                  <h3>
-                    {expertise.data.attributes.title}
-                  </h3>
-                  <p>
-                    {expertise.data.attributes.shortDec}
-                  </p>
+                  <h3>{expertise.data.attributes.title}</h3>
+                  <p>{expertise.data.attributes.shortDec}</p>
 
                   <div className="row justify-content-center">
                     {expertise.data.attributes.item.map((expert) => (
@@ -44,9 +40,7 @@ const OurExpertise = () => {
                             <i className={expert.icon}></i>
                           </div>
                           <h4>{expert.title}</h4>
-                          <p>
-                            {expert.shortText}
-                          </p>
+                          <p>{expert.shortText}</p>
                         </div>
                       </div>
                     ))}
@@ -69,9 +63,9 @@ const OurExpertise = () => {
                         .alternativeText
                     }
                   />
-            
+
                   <div className="why-choose-us-shape-1">
-                    <img src="/images/why-choose-us/shape-1.png" alt="Teza" />
+                    <img src="/images/why-choose-us/shape-1.png" alt="forme" />
                   </div>
                 </div>
               </div>

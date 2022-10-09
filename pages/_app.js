@@ -30,12 +30,14 @@ function MyApp({ Component, pageProps }) {
   const [loader, setLoader] = React.useState(true);
   React.useEffect(() => {
     setTimeout(() => setLoader(false), 2000);
-  }, [])
+  }, []);
 
   return (
     <>
       <Head>
-        <title>Teza - Creative Agency React Next.js Template</title>
+        <title>
+          Résidence Ouléta - Maison de retraite à Veynes (Hautes-Alpes)
+        </title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
 

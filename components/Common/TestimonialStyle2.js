@@ -27,9 +27,7 @@ const TestimonialStyle2 = () => {
                 <div className="testimonials-box-content">
                   <span>{testimonials.data.attributes.subTitle}</span>
                   <h3>{testimonials.data.attributes.title}</h3>
-                  <p>
-                    {testimonials.data.attributes.shortText}
-                  </p>
+                  <p>{testimonials.data.attributes.shortText}</p>
                   <Link href="/testimonials">
                     <a className="default-btn">View More</a>
                   </Link>
@@ -44,11 +42,11 @@ const TestimonialStyle2 = () => {
                   spaceBetween={30}
                   breakpoints={{
                     640: {
-                      slidesPerView: 1
+                      slidesPerView: 1,
                     },
                     768: {
-                      slidesPerView: 2
-                    }
+                      slidesPerView: 2,
+                    },
                   }}
                   modules={[Pagination]}
                   className="mySwiper testimonials-slides-two"
@@ -60,9 +58,7 @@ const TestimonialStyle2 = () => {
                           <div className="icon">
                             <i className="flaticon-straight-quotes"></i>
                           </div>
-                          <p>
-                            {item.feedbackText}
-                          </p>
+                          <p>{item.feedbackText}</p>
                         </div>
                         <div className="info">
                           <div className="d-flex align-items-center justify-content-start">
@@ -86,7 +82,7 @@ const TestimonialStyle2 = () => {
           </div>
 
           <div className="testimonials-shape-1">
-            <img src="/images/testimonials/shape-1.png" alt="Teza" />
+            <img src="/images/testimonials/shape-1.png" alt="forme" />
           </div>
         </div>
       )}
