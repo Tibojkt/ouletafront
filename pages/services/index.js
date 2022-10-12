@@ -2,7 +2,7 @@ import React from "react";
 import NavbarStyle2 from "@/components/Layout/Navbar/NavbarStyle2";
 import ServicesCard from "@/components/Services/ServicesCard";
 import Footer from "@/components/Layout/Footer/Footer";
-import Margin from "../components/Common/Margin";
+import Margin from "../../components/Common/Margin";
 
 export default function Services() {
   return (

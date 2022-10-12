@@ -184,7 +184,7 @@ const ContactForm = () => {
                   </label>
                   <input
                     type="file"
-                    class="form-control-file"
+                    className="form-control-file"
                     id="exampleFormControlFile1"
                   />
                 </div>
@@ -194,7 +194,7 @@ const ContactForm = () => {
                   </label>
                   <input
                     type="file"
-                    class="form-control-file"
+                    className="form-control-file"
                     id="exampleFormControlFile1"
                   />
                 </div>

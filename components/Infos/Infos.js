@@ -32,22 +32,35 @@ const Infos = () => {
               {caseStudies.data.map((caseStudie) => (
                 <div className="col-lg-6 col-md-6" key={caseStudie.id}>
                   <div
-                    className="single-case-study-card"
+                    className="single-case-study-card relative"
                     style={{ height: "300px" }}
                   >
                     <Link href={`/infos/${caseStudie.attributes.slug}`}>
-                      <a>
-                        <Image
-                          src={caseStudie.attributes.image.data.attributes.url}
-                          alt={
-                            caseStudie.attributes.image.data.attributes
-                              .alternativeText
-                          }
-                          width={456}
-                          height={276}
-                          layout="fill"
-                          objectFit="cover"
-                        />
+                      <a
+                        className="relative"
+                        style={{ height: "100%", width: "100%" }}
+                      >
+                        <div
+                          style={{
+                            position: "relative",
+                            width: "100%",
+                            height: "100%",
+                          }}
+                        >
+                          <Image
+                            src={
+                              caseStudie.attributes.image.data.attributes.url
+                            }
+                            alt={
+                              caseStudie.attributes.image.data.attributes
+                                .alternativeText
+                            }
+                            // width={456}
+                            // height={276}
+                            layout="fill"
+                            objectFit="cover"
+                          />
+                        </div>
                       </a>
                     </Link>
                     <div className="case-study-content">
