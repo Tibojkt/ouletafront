@@ -1,5 +1,5 @@
 import React from "react";
-import NavbarStyleInfos from "@/components/Layout/Navbar/NavbarStyleInfos";
+import NavbarStyle2 from "@/components/Layout/Navbar/NavbarStyle2";
 import PageBanner from "@/components/Common/PageBanner";
 import InfosDetailsContent from "@/components/Infos/InfosDetailsContent";
 import Footer from "@/components/Layout/Footer/Footer";
@@ -8,11 +8,13 @@ import baseApiUrl from "@/utils/baseApiUrl";
 const InfosDetails = ({ caseStudie: { data } }) => {
   return (
     <>
-      <NavbarStyleInfos />
+      <NavbarStyle2 />
 
       <PageBanner
         title={data[0].attributes.title}
-        homeText="Home"
+        homeText="Accueil"
+        category="Infos"
+        categoryUrl="/infos"
         homeUrl="/"
       />
 

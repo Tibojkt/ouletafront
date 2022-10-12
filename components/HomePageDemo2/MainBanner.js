@@ -61,7 +61,7 @@ const MainBanner = () => {
                 data-aos-once="true"
               >
                 <li>
-                  <Link href="#contact">
+                  <Link href="/contact">
                     <a className="default-btn">
                       {banner.data.attributes.btnOneText}
                     </a>

@@ -3,7 +3,7 @@ import Link from "@/utils/ActiveLink";
 import axios from "axios";
 import baseApiUrl from "@/utils/baseApiUrl";
 import Image from "next/image";
-import NavbarInfos from "./NavbarInfos";
+import NavbarInfos from "@/components/Layout/Navbar/NavbarInfos";
 
 const NavbarStyleServices = () => {
   // Logo API
@@ -109,7 +109,7 @@ const NavbarStyleServices = () => {
                 </div> */}
 
                 <div className="option-item">
-                  <Link href="#contact">
+                  <Link href="/contact">
                     <a className="default-btn">Contactez-Nous</a>
                   </Link>
                 </div>

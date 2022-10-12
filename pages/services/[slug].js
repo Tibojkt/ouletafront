@@ -1,5 +1,5 @@
 import React from "react";
-import NavbarStyleServices from "@/components/Layout/Navbar/NavbarStyleServices";
+import NavbarStyle2 from "@/components/Layout/Navbar/NavbarStyle2";
 import PageBanner from "@/components/Common/PageBanner";
 import ServiceDetailsContent from "@/components/Services/ServiceDetailsContent";
 import Footer from "@/components/Layout/Footer/Footer";
@@ -8,11 +8,13 @@ import baseApiUrl from "@/utils/baseApiUrl";
 const ServicesDetails = ({ service: { data } }) => {
   return (
     <>
-      <NavbarStyleServices />
+      <NavbarStyle2 />
 
       <PageBanner
         title={data[0].attributes.title}
-        homeText="Home"
+        homeText="Accueil"
+        category="Services"
+        categoryUrl="/services"
         homeUrl="/"
       />
 

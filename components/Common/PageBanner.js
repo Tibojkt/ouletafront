@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 
-const PageBanner = ({ title, homeText, homeUrl }) => {
+const PageBanner = ({ title, homeText, homeUrl, category, categoryUrl }) => {
   return (
     <>
       <div className="page-banner-area">
@@ -21,11 +21,13 @@ const PageBanner = ({ title, homeText, homeUrl }) => {
                     <a>{homeText}</a>
                   </Link>
                 </li>
-                <li>
-                  <Link href="/services">
-                    <a>Services</a>
-                  </Link>
-                </li>
+                {category && (
+                  <li>
+                    <Link href={categoryUrl}>
+                      <a>{category}</a>
+                    </Link>
+                  </li>
+                )}
                 <li>{title}</li>
               </ul>
             </div>

@@ -1,17 +1,14 @@
 import React from "react";
 import NavbarStyle2 from "@/components/Layout/Navbar/NavbarStyle2";
-import Infos from "@/components/Infos/Infos";
+import ContactEmploi from "@/components/Contact/ContactEmploi";
 import Footer from "@/components/Layout/Footer/Footer";
-import Margin from "../components/Common/Margin";
 
-export default function Informations() {
+export default function Contact() {
   return (
     <>
       <NavbarStyle2 />
 
-      <Margin />
-
-      <Infos />
+      <ContactEmploi />
 
       <Footer />
     </>

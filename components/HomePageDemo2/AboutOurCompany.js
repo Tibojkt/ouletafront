@@ -3,21 +3,21 @@ import axios from "axios";
 import baseApiUrl from "@/utils/baseApiUrl";
 import ReactMarkdown from "react-markdown";
 
-const AboutOurCompany = () => {
-  const [aboutCompany, setAboutCompany] = React.useState();
+const Introduction = () => {
+  const [introduction, setIntroduction] = React.useState();
   React.useEffect(() => {
-    const getAboutCompany = async () => {
+    const getIntroduction = async () => {
       const response = await axios.get(
         `${baseApiUrl}/api/about-our-company-style-2?populate=*`
       );
-      setAboutCompany(response.data);
+      setIntroduction(response.data);
       // console.log(response.data);
     };
-    getAboutCompany();
+    getIntroduction();
   }, []);
   return (
     <>
-      {aboutCompany && (
+      {introduction && (
         <div className="about-area ptb-100" id="about2">
           <div className="container">
             <div className="row align-items-center justify-content-center">
@@ -25,10 +25,10 @@ const AboutOurCompany = () => {
                 <div className="about-image-wrap">
                   <img
                     src={
-                      aboutCompany.data.attributes.image1.data.attributes.url
+                      introduction.data.attributes.image1.data.attributes.url
                     }
                     alt={
-                      aboutCompany.data.attributes.image1.data.attributes
+                      introduction.data.attributes.image1.data.attributes
                         .alternativeText
                     }
                     width={585}
@@ -40,10 +40,10 @@ const AboutOurCompany = () => {
                   />
                   <img
                     src={
-                      aboutCompany.data.attributes.image2.data.attributes.url
+                      introduction.data.attributes.image2.data.attributes.url
                     }
                     alt={
-                      aboutCompany.data.attributes.image2.data.attributes
+                      introduction.data.attributes.image2.data.attributes
                         .alternativeText
                     }
                     width={350}
@@ -64,20 +64,12 @@ const AboutOurCompany = () => {
                 data-aos-once="true"
               >
                 <div className="about-content">
-                  <span>{aboutCompany.data.attributes.subTitle}</span>
-                  <h3>{aboutCompany.data.attributes.title}</h3>
+                  <span>{introduction.data.attributes.sousTitre}</span>
+                  <h3>{introduction.data.attributes.titre}</h3>
 
                   <ReactMarkdown>
-                    {aboutCompany.data.attributes.shortDescription}
+                    {introduction.data.attributes.description}
                   </ReactMarkdown>
-
-                  {/* <div className="about-btn">
-                    <Link href={aboutCompany.data.attributes.btnLink}>
-                      <a className="default-btn">
-                        {aboutCompany.data.attributes.btnText}
-                      </a>
-                    </Link>
-                  </div> */}
                 </div>
               </div>
             </div>
@@ -88,4 +80,4 @@ const AboutOurCompany = () => {
   );
 };
 
-export default AboutOurCompany;
+export default Introduction;

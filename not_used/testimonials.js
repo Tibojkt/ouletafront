@@ -1,8 +1,8 @@
 import React from "react";
 import NavbarStyle2 from "@/components/Layout/Navbar/NavbarStyle2";
 import PageBanner from "@/components/Common/PageBanner";
-import TestimonialsCard from "@/components/Testimonials/TestimonialsCard";
-import Cta from "@/components/Common/Cta";
+import TestimonialsCard from "not_used/not_used_components/Testimonials/TestimonialsCard";
+import Cta from "not_used/not_used_components/Cta";
 import Partner from "@/components/Common/Partner";
 import Footer from "@/components/Layout/Footer/Footer";
 
@@ -20,7 +20,7 @@ export default function Testimonials() {
       </div>
 
       <Partner />
-      
+
       <Footer />
     </>
   );

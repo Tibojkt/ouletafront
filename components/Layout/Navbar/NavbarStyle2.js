@@ -94,40 +94,39 @@ const NavbarStyle2 = () => {
 
                   <NavbarInfos />
                   <NavbarServices />
-
                   <li className="nav-item">
-                    <Link href="#faq" activeClassName="active">
+                    <a className="nav-link">
+                      Emploi <i className="ri-arrow-down-s-line"></i>
+                    </a>
+                    <ul className="dropdown-menu">
+                      <li className="nav-item">
+                        <Link href="/emploi">
+                          <a className="nav-link">Offres d'Emploi</a>
+                        </Link>
+                      </li>
+
+                      <li className="nav-item">
+                        <Link href="/emploi/candidature/">
+                          <a className="nav-link">Candidature spontanée</a>
+                        </Link>
+                      </li>
+                    </ul>
+                  </li>
+                  <li className="nav-item">
+                    <Link href="/faq" activeClassName="active">
                       <a className="nav-link">FAQ</a>
                     </Link>
                   </li>
-
-                  <li className="nav-item">
-                    <Link href="#contact" activeClassName="active">
-                      <a className="nav-link">Contact</a>
-                    </Link>
+                  <li className="d-flex">
+                    <div className="others-options d-flex align-items-center">
+                      <div className="option-item">
+                        <Link href="/contact">
+                          <a className="default-btn">Contactez-Nous</a>
+                        </Link>
+                      </div>
+                    </div>
                   </li>
                 </ul>
-              </div>
-
-              <div className="others-options d-flex align-items-center">
-                {/* <div className="option-item">
-                  <form className="search-box">
-                    <input
-                      type="text"
-                      className="input-search"
-                      placeholder="Search..."
-                    />
-                    <button type="submit">
-                      <i className="ri-search-line"></i>
-                    </button>
-                  </form>
-                </div> */}
-
-                <div className="option-item">
-                  <Link href="#contact">
-                    <a className="default-btn">Contactez-Nous</a>
-                  </Link>
-                </div>
               </div>
             </nav>
           </div>

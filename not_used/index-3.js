@@ -1,17 +1,17 @@
 import React from "react";
 import NavbarStyle2 from "@/components/Layout/Navbar/NavbarStyle2";
-import MainBanner from "@/components/HomePageDemo3/MainBanner";
-import OurExpertise from "@/components/HomePageDemo3/OurExpertise";
+import MainBanner from "not_used/not_used_components/HomePageDemo3/MainBanner";
+import OurExpertise from "not_used/not_used_components/HomePageDemo3/OurExpertise";
 import FunFactStyle3 from "@/components/Common/FunFactStyle3";
-import OurServices from "@/components/HomePageDemo3/OurServices";
+import OurServices from "not_used/not_used_components/HomePageDemo3/OurServices";
 import WhyChooseUsStyle2 from "@/components/Common/WhyChooseUsStyle2";
-import Pricing from "@/components/PricingPlan/Pricing";
+import Pricing from "not_used/not_used_components/PricingPlan/Pricing";
 import Infos from "@/components/Common/Infos";
-import AboutOurCompany from "@/components/HomePageDemo3/AboutOurCompany";
+import AboutOurCompany from "not_used/not_used_components/HomePageDemo3/AboutOurCompany";
 import TestimonialStyle2 from "@/components/Common/TestimonialStyle2";
 import TeamMemberStyle2 from "@/components/Common/TeamMemberStyle2";
 import Faq from "@/components/Common/Faq";
-import Cta from "@/components/Common/Cta";
+import Cta from "not_used/not_used_components/Cta";
 import Footer from "@/components/Layout/Footer/Footer";
 
 export default function Index3() {

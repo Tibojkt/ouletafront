@@ -1,8 +1,8 @@
 import React from "react";
 import NavbarStyle2 from "@/components/Layout/Navbar/NavbarStyle2";
 import PageBanner from "@/components/Common/PageBanner";
-import TeamMember from "@/components/Team/TeamMember";
-import Cta from "@/components/Common/Cta";
+import TeamMember from "not_used/not_used_components/Team/TeamMember";
+import Cta from "not_used/not_used_components/Cta";
 import Footer from "@/components/Layout/Footer/Footer";
 
 export default function Team() {

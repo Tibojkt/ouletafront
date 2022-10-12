@@ -9,15 +9,17 @@ export default function TermsOfService() {
     <>
       <NavbarStyle2 />
 
-      <PageBanner title="Terms Of Service" homeText="Home" homeUrl="/" />
+      <PageBanner
+        title="Règlement de Protection des Données Personnelles"
+        homeText="Accueil"
+        homeUrl="/"
+      />
 
       <div className="ptb-100">
         <div className="container">
           <div className="terms-of-service-content">
             <p>
-              <i>
-                This Terms of Service was last updated on September 1, 2022.
-              </i>
+              <i>Mise à jour le 11 Octobre 2022.</i>
             </p>
             <h3>
               <span>1.</span> Our Website

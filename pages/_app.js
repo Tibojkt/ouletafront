@@ -7,6 +7,7 @@ import "../styles/remixicon.css";
 import "../styles/flaticon.css";
 import "react-accessible-accordion/dist/fancy-example.css";
 import "swiper/css";
+
 import "swiper/css/bundle";
 // Navbar CSS
 import "../styles/navbar.css";
